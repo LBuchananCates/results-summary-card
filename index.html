@@ -9,7 +9,12 @@
   </head>
   <body>
     <section class="results-section">
-      Your Result 76 of 100 Great
+      <header class="results-section-header">Your Result</header>
+      <div class="personal-score">
+        76 <span class="out-of-total">of 100</span>
+      </div>
+
+      Great
       <p>
         You scored higher than 65% of the people who have taken these tests!
       </p>
@@ -17,13 +22,48 @@
 
     <section class="summary-section">
       <h3 class="summary-section-header">Summary</h3>
-      <p>Reaction <span class="test-scores">80 / 100</span></p>
-      <p>Memory <span class="test-scores">92 / 100</span></p>
-      <p>Verbal <span class="test-scores">61 / 100</span></p>
-      <p>Visual <span class="test-scores">72 / 100</span></p>
-    </section>
 
-    <button class="continue-button">Continue</button>
+      <div class="reaction-category">
+        <span
+          ><img src="./assets/images/icon-reaction.svg" alt="bolt-icon" />
+          Reaction</span
+        >
+        <span class="test-scores"
+          >80<span class="out-of-total"> / 100</span></span
+        >
+      </div>
+
+      <div class="memory-category">
+        <span>
+          <img src="./assets/images/icon-memory.svg" alt="brain-icon" />
+          Memory</span
+        >
+        <span class="test-scores"
+          >92<span class="out-of-total"> / 100</span></span
+        >
+      </div>
+
+      <div class="verbal-category">
+        <span>
+          <img src="./assets/images/icon-verbal.svg" alt="speech-bubble-icon" />
+          Verbal</span
+        >
+        <span class="test-scores"
+          >61<span class="out-of-total"> / 100</span></span
+        >
+      </div>
+
+      <div class="visual-category">
+        <span>
+          <img src="./assets/images/icon-visual.svg" alt="eye-icon" />
+          Visual</span
+        >
+        <span class="test-scores"
+          >72<span class="out-of-total"> / 100</span></span
+        >
+      </div>
+      <button class="continue-button">Continue</button>
+    </section>
   </body>
 </html>
 

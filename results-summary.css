@@ -4,9 +4,11 @@
 
 body {
   font-family: "Hanken Grotesk", sans-serif;
-  font-size: 24px;
+  font-size: 30px;
+  margin: auto 0;
 }
 
+/* results section */
 .results-section {
   background: linear-gradient(
     180deg,
@@ -14,6 +16,76 @@ body {
     rgba(47, 44, 233, 1) 100%
   );
   height: 35vh;
+  border-radius: 0 0 70px 70px;
+  text-align: center;
+}
+
+.personal-score {
+  /* margin: auto 0; */
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+/* summary section */
+.summary-section {
+  padding: 50px 80px;
+}
+
+.summary-section-header {
+  color: #303b59;
+}
+
+.summary-section div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.test-scores {
+  color: #303b59;
+}
+
+.out-of-total {
+  color: hsl(240, 1%, 64%);
+}
+
+img {
+  width: 45px;
+  vertical-align: text-bottom;
+}
+
+.reaction-category {
+  background-color: hsl(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+  padding: 45px;
+  margin: 20px 0;
+  border-radius: 15px;
+}
+
+.memory-category {
+  background-color: hsla(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+  padding: 40px;
+  margin: 20px 0;
+  border-radius: 15px;
+}
+
+.verbal-category {
+  background-color: hsla(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+  padding: 40px;
+  margin: 20px 0;
+  border-radius: 15px;
+}
+
+.visual-category {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+  padding: 40px;
+  margin: 20px 0;
+  border-radius: 15px;
 }
 
 .continue-button {
