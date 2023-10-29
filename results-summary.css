@@ -1,3 +1,8 @@
+:root {
+  -c-indigo: rgba(47, 44, 233, 1) 100%;
+  -c-pastel-lavender: #cac9ff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -151,11 +156,18 @@ img {
   }
 
   .desktop-container {
-    display: inline-flex;
+    display: flex;
+    margin: auto;
+    box-shadow: #cac9ff 25px 25px 60px 5px;
+    border-radius: 70px;
+    width: 80%;
+    margin: 10%;
   }
 
   .results-section {
     height: auto;
+    border-radius: 70px;
+    width: 60%;
   }
 
   .summary-section {
