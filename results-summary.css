@@ -82,6 +82,7 @@ body {
 .summary-section div {
   display: flex;
   justify-content: space-between;
+  white-space: nowrap;
 }
 
 .summary-section-test-scores {
