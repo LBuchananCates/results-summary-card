@@ -1,8 +1,11 @@
 # Frontend Mentor - Results summary component solution
 
-[Click here](https://monumental-speculoos-59ea87.netlify.app) to view my site!!!
+[Click here to view my site!!!](https://monumental-speculoos-59ea87.netlify.app) 
 
-## Overview
+
+<img width="378" alt="score card mobile view" src="https://github.com/LBuchananCates/results-summary-card/assets/100169368/824f13ba-7063-4d01-9f1c-5c987293a3fc">
+<img width="869" alt="score card desktop view" src="https://github.com/LBuchananCates/results-summary-card/assets/100169368/a70c7025-bdf6-4d22-996c-d84ab7eeab7e">
+<img width="366" alt="active state button" src="https://github.com/LBuchananCates/results-summary-card/assets/100169368/4c7324ed-a14e-4006-a0f3-c915eb58356c">
 
 ### The challenge
 
@@ -11,11 +14,6 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 - **Bonus**: Use the local JSON data to dynamically populate the content
-
-### Screenshot
-<img width="378" alt="score card mobile view" src="https://github.com/LBuchananCates/results-summary-card/assets/100169368/824f13ba-7063-4d01-9f1c-5c987293a3fc">
-<img width="869" alt="score card desktop view" src="https://github.com/LBuchananCates/results-summary-card/assets/100169368/a70c7025-bdf6-4d22-996c-d84ab7eeab7e">
-<img width="366" alt="active state button" src="https://github.com/LBuchananCates/results-summary-card/assets/100169368/4c7324ed-a14e-4006-a0f3-c915eb58356c">
 
 ### Links
 
